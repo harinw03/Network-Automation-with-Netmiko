@@ -26,6 +26,8 @@ and more
  Automation will help you manage all the devices in your org effectively. Automation is not just about scripting, its also how we make 
  use of automation tools like Ansible, Jenkins, Git etc.
 
+This repository contains scripts for PanOS, Aruba, Cisco SG, and A10. If you look into the scripts you would find there aren't any difference except vaule of "device_type".
+
 Use cases:
 There are many use cases, I have mentioned few below.
 1) Disconnect/block a user from wifi.
@@ -35,4 +37,13 @@ There are many use cases, I have mentioned few below.
 5) Zero touch implementation for a new office. 
 And so on.
 
+You can also use Jenkins as a frontend for these scripts, So that you can give access to your Production Support team 
+to execute "Show commands" for interface status, Arp table, Logs for port flapping, Ping test etc. 
 
+Annoyed with Vlan change request from users. Just think your IT team gives the device name, port no, vlan(new vlan tag) in jenkins and the script does the rest. And you relaxed and reading new tech. 
+
+Note: Be Caution, think of any worst case scenrios and test the scripts completly before you go live in production. 
+ex: When you want to disbale a port with a particular mac add, Make sure your scripts knows its an "access port" and not "trunk port" 
+or else you will make a good memory to laugh later :).
+
+Happy Network Coding!!!
