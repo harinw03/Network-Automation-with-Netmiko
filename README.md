@@ -42,8 +42,7 @@ to execute "Show commands" for interface status, Arp table, Logs for port flappi
 
 Annoyed with Vlan change request from users. Just think your IT team gives the device name, port no, vlan(new vlan tag) in jenkins and the script does the rest. And you relaxed and reading new tech. 
 
-Note: Be Caution, think of any worst case scenrios and test the scripts completly before you go live in production. 
-ex: When you want to disbale a port with a particular mac add, Make sure your scripts knows its an "access port" and not "trunk port" 
-or else you will make a good memory to laugh later :).
+Note: Be Caution, think of any worst case scenarios and test the scripts completely before you go live in production. 
+ex: When you want to disbale a port with a particular mac add, make sure your script knows difference between "Access" and "Uplink port" or else you will make a good memory to laugh later. :)
 
 Happy Network Coding!!!
