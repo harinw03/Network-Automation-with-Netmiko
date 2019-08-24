@@ -23,7 +23,7 @@ def connect( device ):
 
 #Connect to device
 	try:
-	        connection = netmiko.ConnectHandler(host=device, device_type='a10', username='py', password=decode )
+	        connection = netmiko.ConnectHandler(host=device, device_type='a10', username=<username>, password=decode )
 
 	        output = (connection.send_command('<Show command>'))
 
@@ -36,7 +36,7 @@ def connect( device ):
 		print (device+" = Failed")
 with open("<DeviceListPath>", 'r') as f:
         for line in f:
-                line=line.replace('\n','')
+                line=line.strip('\n')
                 print (line)
                 connect( device=line )
                 if "str" in line:
