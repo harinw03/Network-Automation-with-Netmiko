@@ -20,7 +20,7 @@ Fortinet
 F5 
 and more
 
- Why automation in networking? When you have hundreads of devices and you need a centralized management which makes your life easy. 
+ Why automation in networking? When you have hundreds of devices and you need a centralized management which makes your life easy. 
  Network engineer never had this freedom what IT Admin with Active Directory or a Devops engineer with chef,puppet,salt.
  As we know networking have multi vendor devices with differnt OS. For an example Cisco commands are different between ASA,NX-OS,IOS. 
  Automation will help you manage all the devices in your org effectively. Automation is not just about scripting, its also how we make 
@@ -30,12 +30,12 @@ This repository contains scripts for PanOS, Aruba, Cisco SG, and A10. If you loo
 
 Use cases:
 There are many use cases, I have mentioned few below.
-1) Disconnect/block a user from wifi.
+1) Disconnect/block a user from WiFi.
 2) Block a LAN port where mac add 'XYZ' is connected.
-3) Auto config backup of devices.
-4) Updated the OS for a group swithes.
+3) Auto config backup for devices.
+4) Updated the OS for a group of switches.
 5) Zero touch implementation for a new office. 
-And so on.
+And so on,.
 
 You can also use Jenkins as a frontend for these scripts, So that you can give access to your Production Support team 
 to execute "Show commands" for interface status, Arp table, Logs for port flapping, Ping test etc. 
