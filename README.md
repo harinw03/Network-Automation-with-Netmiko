@@ -33,6 +33,6 @@ There are many use cases, I have mentioned few below.
 3) Auto config backup of devices.
 4) Updated the OS for a group swithes.
 5) Zero touch implementation for a new office. 
-So on.
+And so on.
 
 
