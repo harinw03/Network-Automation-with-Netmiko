@@ -24,7 +24,7 @@ def connect( device ):
 
 #Connect to device
 	try:
-		connection = netmiko.ConnectHandler(host=device, device_type='cisco_s300', username='py', password=decode )
+		connection = netmiko.ConnectHandler(host=device, device_type='cisco_s300', username=<username>, password=decode )
 		with open (cmd_path+"sg.txt", 'r') as cmd_file:
 			line = cmd_file.readlines()
 			output = (connection.send_config_set(line))
