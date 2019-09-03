@@ -34,7 +34,7 @@ There are many use cases, I have mentioned few below.
 2) Block a LAN port where mac add 'XYZ' is connected.
 3) Auto config backup for devices.
 4) Updated the OS for a group of switches.
-5) Zero touch implementation for a new office. 
+5) Zero touch implementation for a new switch in your Datacenter/offices. 
 And so on,.
 
 You can also use Jenkins as a frontend for these scripts, So that you can give access to your Production Support team 
